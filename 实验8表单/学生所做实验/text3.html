@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>text3</title>
+    <style>
+        .out{
+            height: 900px;
+            width: 1000px;
+            background-image: url("../images/bg3.png");
+            background-repeat: no-repeat;
+            border: 2px solid ;
+        }
+        h1{
+            position: relative;
+            top: -15px;
+            left: 170px;
+        }
+        p{
+            background-color: white;
+            height: 25px;
+            width: 460px;
+        }
+        .form{
+            height: 700px;
+            width: 500px;
+            position: relative;
+            top: 180px;
+            left: 300px;
+        }
+        .name{
+            background-image: url("../images/icon2.png");
+            background-repeat: no-repeat;
+        }
+        .name::placeholder{
+            position: relative;
+            left: 25px;
+        }
+        .age{
+            background-image: url("../images/icon3.png");
+            background-repeat: no-repeat;
+        }
+        .age::placeholder{
+            position: relative;
+            left: 25px;
+        }
+        label{
+            display: block;
+            padding-bottom: 20px;
+        }
+        input{
+            width: 450px;
+            height: 25px;
+            border: 0;
+        }
+        .input1{
+            width: 20px;
+            height: auto;
+        }
+        select{
+            width: 150px;
+            height: 25px;
+            margin-bottom: 10px;
+        }
+        .salary{
+            width: 150px;
+            height: 25px;
+        }
+        .button{
+            width: 450px;
+            height: 25px;
+            background-color: #ce4d52;
+            color: white;
+            text-align: center;
+            font-weight: 600;
+            letter-spacing: 7px;
+        }
+        label>span{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="out">
+    <div class="form">
+        <h1>员工档案</h1>
+        <form action="#" method="post">
+        <label><input type="text" placeholder="本人真实姓名" class="name"></label>
+        <label><input type="text" placeholder="请填写实际年龄" class="age"></label>
+        <p><label><input type="radio" name="sex" class="input1">男
+            <input type="radio" name="sex" class="input1">女
+        </label></p>
+        <p><label>
+            <input type="checkbox" class="input1">技术部
+            <input type="checkbox" class="input1">行政部
+            <input type="checkbox" class="input1">财务部
+            <input type="checkbox" class="input1">人力资源部
+        </label></p>
+        <label>
+            <select>
+                <option>上海分公司</option>
+                <option>北京分公司</option>
+                <option>重庆分公司</option>
+            </select>
+            <label>
+                <input type="text" placeholder="工作薪资" class="salary">
+                <span>元/月（收入）</span>
+            </label>
+            <label><textarea cols="70" rows="7">请简要描述自己的工作职责
+            </textarea></label>
+            <input type="submit" value="提交" class="button">
+        </label>
+    </form>
+    </div>
+</div>
+</body>
+</html>
