@@ -1,0 +1,46 @@
+html{
+    height: 100%
+}
+body{
+    height: 100%;
+}
+div{
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#page1
+{
+    background-image:url("../img/halloween1.jpg");
+}
+#page2{
+    background-image:url("../img/halloween2.jpg");
+}
+#page3{
+    background-image:url("../img/halloweenMain.jpg");
+}
+#page4{
+
+
+}
+#title{
+   position: absolute;
+    top: 50px;
+    left: 300px;
+}
+#box{
+    position: absolute;
+    bottom: 230px;
+    left: 300px;
+}
+#start{
+    position: absolute;
+    left: 350px;
+    bottom: 240px;
+}
+#title,#pumpkin{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+}
