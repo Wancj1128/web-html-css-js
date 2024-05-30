@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>违停查询</title>
+    <style>
+        .out{
+            height: 400px;
+            width: 700px;
+            border: red solid 2px;
+            background-color: #1E2D3B;
+        }
+        .left{
+            width: 330px;
+            height:400px;
+            float: left;
+            position: relative;
+            background-image: url("../images/road.png");
+            background-position: right;
+            background-repeat: no-repeat;
+        }
+        .right{
+            width: 330px;
+            height: 400px;
+            float: right;
+        }
+        .right>h2{
+            font-size: 5rem;
+            font-weight: 600;
+            color: #3F9ADE;
+            letter-spacing: 30px;
+            font-family:微软雅黑;
+            font-style: italic;
+            padding: 0px;
+            margin: 0px;
+            position: relative;
+            top: 15%;
+            left: 10%;
+        }
+        p{
+            padding: 0px;
+            margin: 0px;
+            color: #55606B;
+            font-style: italic;
+            font-weight: 600;
+            letter-spacing: 3px;
+            font-size: 20px;
+            position: relative;
+            top:15%;
+            left: 3%;
+        }
+        .right>img{
+            position: relative;
+            top: 20%;
+            left: 10%;
+        }
+        .one{
+            width: 158px;
+            height: 177px;
+            background-image: url("../images/icon1.png");
+            position: absolute;
+            top: 33%;
+            left: 3%;
+        }
+        .two{
+            width: 98px;
+            height: 106px;
+            background-image: url("../images/icon3.png");
+            position: absolute;
+            top: 33%;
+            left: 72%;
+        }
+        .three{
+            width: 69px;
+            height: 78px;
+            background-image: url("../images/icon5.png");
+            position: absolute;
+            top: 5%;
+            left: 40%;
+        }
+        .four{
+            width: 45px;
+            height: 50px;
+            background-image: url("../images/icon7.png");
+            position: absolute;
+            left: 72%;
+        }
+
+        a{
+            display: block;
+        }
+        .one:hover{background:url("../images/icon2.png") no-repeat }
+        .two:hover{background:url("../images/icon4.png") no-repeat }
+        .three:hover{background:url("../images/icon6.png") no-repeat }
+        .four:hover{background:url("../images/icon8.png") no-repeat }
+    </style>
+</head>
+<body>
+<div class="out">
+    <div class="left">
+        <a href="#" class="one"></a>
+        <a href="#" class="two"></a>
+        <a href="#" class="three"></a>
+        <a href="#" class="four"></a>
+    </div>
+    <div class="right">
+        <h2>查违</h2>
+        <p>及时、迅速、精确、便捷</p>
+        <img src="../images/car.png" alt="">
+    </div>
+</div>
+</body>
+</html>
